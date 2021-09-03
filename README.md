@@ -5,9 +5,7 @@ Este repositório é destinado a apresentar formas de acionamentos de motores de
 
 ## Acionamentos
 
-Os presentes circuitos foram desenvolvidos a partir da ferramenta de simulação [CADe SIMU](https://www.cadesimu.net/). Os arquivos colocados na pasta [acionamentos](./acionamentos) possuem extensão .cad que podem ser abertos com esse software.
-
-Os acionamentos elaborados foram feitos para o acionamento direto de um motor trifasico YD.
+Os diagramas foram desenvolvidos para o acionamento direto de um motor trifasico YD utilizando o programa [CADe SIMU](https://www.cadesimu.net/). Os arquivos colocados na pasta [acionamentos](./acionamentos) possuem extensão .cad que podem ser abertos com esse software para visualização, modificação e simulação.
 
 
 ### Partida direta
