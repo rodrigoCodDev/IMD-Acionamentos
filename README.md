@@ -7,7 +7,7 @@ Esse repositório é destinado a apresentar formas de acionamentos de motores de
 Os presentes circuitos foram desenvolvidos a partir da ferramenta de simulação: 
 [CADe SIMU](https://www.cadesimu.net/)
 
-Os arquivos colocados na pasta [Acionamentos](./Acionamentos) possuem extensão .cad que pode ser exportado para esse software.
+Os arquivos colocados na pasta [acionamentos](./acionamentos) possuem extensão .cad que pode ser exportado para esse software.
 
 ## Acionamentos
 
