@@ -1,4 +1,4 @@
-# IMD - ACIONAMENTOS
+# IMD - ACIONAMENTOS ELETRÔNICOS
 
 Esse repositório é destinado a apresentar formas de acionamentos de motores desenvolvidos durante as aulas da disciplina de Acionamentos Eletrônicos do Instituto Metropole Digital(IMD).
 
