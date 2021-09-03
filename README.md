@@ -1,19 +1,20 @@
 # IMD - ACIONAMENTOS
 
-Esse repositório é destinado a apresentar formas de acionamentos de motores desenvolvidos durante as aulas da disciplina de Acionamentos Eletrônicos do Instituto Metrópole Digital(IMD).
+Este repositório é destinado a apresentar formas de acionamentos de motores desenvolvidos durante as aulas da disciplina de **Acionamentos Eletrônicos** do Instituto Metrópole Digital(IMD).
 
-## Software
-
-Os presentes circuitos foram desenvolvidos a partir da ferramenta de simulação: 
-[CADe SIMU](https://www.cadesimu.net/)
-
-Os arquivos colocados na pasta [acionamentos](./acionamentos) possuem extensão .cad que pode ser exportado para esse software.
 
 ## Acionamentos
 
+Os presentes circuitos foram desenvolvidos a partir da ferramenta de simulação [CADe SIMU](https://www.cadesimu.net/)
+
+Os arquivos colocados na pasta [acionamentos](./acionamentos) possuem extensão .cad que pode ser exportados para esse software.
+
 Os acionamentos elaborados foram feitos para o acionamento direto de um motor trifasico YD.
 
+
 ### Partida direta
+
+![Partida direta](./img/partida_direta.png)
 
 O acionamento de partida direta contém:
 - **Circuito de força:** ligado a fonte de alimentação trifásica e ao motor. Contém dispositivos para proteção do motor - são os fusíveis e o relé de sobrecarga - e os contatores. Esse circuito pode ser identificado pela coluna C do diagrama.
@@ -21,20 +22,20 @@ O acionamento de partida direta contém:
 
 Enquanto chave pulsante **S1** permanecer pressionada, o motor estará funcionando. Ela energiza o circuito de controle e faz com que a bobina crie um campo magnético que feche o circuito de força pela atração dos contatores.
 
-![Partida direta](./img/Partida_direta.png)
 
 ### Partida direta com sinalização
+
+![Partida direta com sinalização](./img/partida_direta_com_sinalização.png)
 
 O acionamento seque a mesma lógica da partida direta, somente inclui uma sinalização que é feita quando o circuito de força é acionado pelo de controle.
 
 Quando a chave **S1** é acionada, a bobina vai fechar tanto os contactores como também a chave que aciona da lâmpada **H1**, isso fará com que haja sinalização quando o motor estiver ligado.
 
-![Partida direta com sinalização](./img/Partida_direta_com_sinalização.png)
 
 ### Partida direta com selo
+
+![Partida direta com sinalização](./img/partida_direta_com_selo_elétrico.png)
 
 A partida direta com selo acrescenta uma ligação chaveada do circuito de sinalização com o de controle que faz a alimentação da bobina bastando apenas a ativação por uma única vez do botão **S1**.
 
 Esse acionamento foi projeto para que não se precise manter a chave **S1** pressionada todo tempo para ligar o motor. Dessa forma, ela possui uma outra chave denominada **S2** que fica normalmente fechada, mas que quando ativada abre o circuito de controle e desliga o de força.
-
-![Partida direta com sinalização](./img/Partida_direta_com_selo_elétrico.png)
